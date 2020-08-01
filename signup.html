@@ -1,0 +1,63 @@
+﻿<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" type="text/css" href="stylesignup.css"><!--link towards style sheet-->
+    <script src="script.js"></script><!--link towards java scrypt-->
+</head>
+<body>
+    <form onsubmit="check();" action="sample.html" method="post" ><!--calling js function-->
+        <fieldset class="upfield"> <!--Creating different containers-->
+            <legend><b>Your information</b></legend>
+            <label for="fname"><b>Full Name:</b></label>
+            <input type="text" id='fname' name="full_name" required><br /><br />
+            <label for="lphone"><b>Phone:</b></label>
+            <input type="tel" id='lphone' name="phone" placeholder="+1-999-999-9999" pattern="\+1-[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+            <label for="fbirthday"><b>Birthday:</b></label>
+            <input type="date" id='fbirthday' name="birthday" required>
+        </fieldset>
+
+        <br /><br />
+
+        <fieldset class="upfield1"> <!--Creating different containers-->
+            <legend><b>Address</b></legend>
+            <label for="fStreetno"><b>Street No:</b></label>
+            <input type="text" id='fStreetno' name="fstreetno" required><br /><br />
+            <label for="fStreet"><b>Street Name:</b></label>
+            <input type="text" id='fStreet' name="fstreet" required><br /><br />
+            <label for="fcomp"><b>Complement:</b></label>
+            <input type="text" id='fcomp' name="fcomp" required><br /><br />
+            <label for="fcity"><b>City:</b></label>
+            <input type="text" id='fcity' name="fcity" required><br /><br />
+            <label for="fprov"><b>Province:</b></label>
+            <input type="text" id='fprov' name="fprov" required><br /><br />
+            <label for="fcountry"><b>Country:</b></label>
+            <input type="text" id='fcountry' name="fcountry" required><br /><br />
+            <label for="fzip"><b>ZIP:</b></label>
+            <input type="text" id='fzip' name="fzip" required><br /><br />
+
+        </fieldset>
+        <br /><br />
+        <fieldset class="upfieldset"><!--Creating different containers-->
+            <legend><b>Login Details</b></legend>
+            <label for="lemail"><b>Email:</b></label>
+            <!--creating an input having some criteria for email id-->
+            <input type="email" id='lemail' name="email" placeholder="your_account@extention"
+                   pattern="[0-9A-Za-z_]*@*[A-Za-z_].*[A-Za-z_]" required><br /><br />
+            <label for="pswd"><b>Set Password:</b></label>
+            <!--creating an input having some criteria for Password-->
+            <input type="password" name="pswd" placeholder="*************" id="pswd" required><br><br>
+            <label for="pswd"><b>Conform Password:</b></label>
+            <!--creating an input having some criteria to confirm Password-->
+            <input type="password" name="cpswd" placeholder="**************" id="cpswd" required  /> 
+            <span id='message'></span><br><br>
+            <br /><br /><br />
+    		<input type="submit" name="Signup" id="Signup" value="Sign up"><br><br>
+            <a href="sample.html"><b>Back</b></a><br />
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
