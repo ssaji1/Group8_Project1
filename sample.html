@@ -1,0 +1,33 @@
+﻿<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css"><!--link towards style sheet-->
+</head>
+<body>
+	
+	<form action="about.html">
+		<h1 align="center">Log-In</h1>
+        <div class="container">
+            <label for="umail"><b>Email</b></label>
+            <!--creating an input having some criteria for email id-->
+            <input type="email" name="umail" id="umail" placeholder="your_account@extention" pattern="[0-9A-Za-z_]*@*[A-Za-z_].*[A-Za-z_]" required><br><br>
+            <label for="pswd"><b>Password</b></label>
+            <!--creating an input having some criteria for Password-->
+            <input type="password" name="pswd" id="pswd" required><br><br>
+            <input type="submit" name="SignIn" id="SignIn" value="Sign In"><br><br>
+            <a href="signup.html">New user?</a><br><!--link to sign up for new user-->
+        </div>
+		 <div class="container">
+		<fieldset>
+		<legend>Recover Access</legend>
+            <!--giving regestered useres link to recover username or password-->
+		<a href="recoveruser.html">Forgot User</a><br><br>
+		<a href="recoverpass.html">Forgot Password</a><br>
+	</fieldset>
+</div>
+	</form>
+
+</body>
+</html>
