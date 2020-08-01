@@ -1,0 +1,96 @@
+/*providing background color*/
+.abo {
+    background-color: aqua;
+}
+
+/*alligning header*/
+.header h1{
+    text-align:center;
+    margin-top:-5px;
+}
+.header a{
+    float:right;
+    margin-top:-55px;
+    padding-top:-30px;
+    height:50px;
+    border-style:solid;
+    color:black;
+    background-color:wheat;
+}
+
+
+.text{
+    background-color:antiquewhite;
+}
+
+.Saneesh { /*editting containers*/
+    float: left; /*using float layout*/
+    margin-left: 20px;
+    text-align: left;
+    width: 350px;
+    height: 340px;
+    background-color: gainsboro;
+}
+
+
+.developers { /*editting containers*/
+    float:left; /*using float layout*/
+    margin-left: 99px;
+    text-align: left;
+    width: 355px;
+    height: 340px;
+    background-color: gainsboro;
+}
+
+
+ol {
+    margin-left: -35px;
+}
+ img { /*editting images*/
+    margin-left: 70px;
+    margin-top: 0px;
+    width: 60%;
+    height: 50%;
+}
+
+
+.footer { /*alligning footer box*/
+    
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 55px;
+    left: 0px;
+    padding-top: 20px;
+}
+
+    .footer .bottom { /*alligning footer to the bottom*/
+        background-color: navajowhite;
+        height: 35px;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        left: 0px;
+        padding-top: 20px;
+    }
+
+/* Full-width submit button */
+input[type=submit] {
+    background-color: #000080;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/*Alligning footer*/
+.footer.bottom a {
+    float:left;
+    margin-top:unset;
+    padding-top:unset;
+    height: auto;
+    border-style: unset;
+   color:aliceblue;
+}
