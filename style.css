@@ -1,0 +1,46 @@
+/*background imaged form*/
+body {
+    background-color: aliceblue;
+    padding-left: 720px;
+   background-image:url(col.jpg);
+   background-size:contain;
+
+}
+/* Bordered form */
+form {
+    border: 3px solid #000080;
+    background-color:burlywood;
+    float:  right;
+    
+}
+/*alligning the container*/
+.recover {
+    margin-right: 30%;
+    margin-left: -70%;
+    padding-top:10%;
+}
+/* Full-width submit button */
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+  background-color: #000080;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
