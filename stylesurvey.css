@@ -1,0 +1,120 @@
+/*background imaged form*/
+body {
+     background-image:url(sign.jpg);
+}
+
+/*alligning header*/
+.header{
+    border:solid;
+    text-align:center;
+    color:darkred;
+    background-color:darkcyan;
+    height:9%;
+    margin-top:-3px;
+}
+
+/*Designing Containers*/
+.questions {
+    border: outset;
+    background-color: darkorange;
+    height: 9%;
+    margin-top: 20px;
+    padding: 2px 2px 2px 2px;
+}
+
+/*Designing Containers*/
+.questions .a{
+    border:dotted;
+    float:left;
+    width:49%;
+    margin-top:25px;
+    background-color:antiquewhite;
+}
+
+/*Designing Containers*/
+.questions .a .one{
+    border:groove;
+    height:100px;
+    
+}
+
+/*Designing Containers*/
+.questions .b{
+    border:dotted;
+    float:right;
+    width:49%;
+    margin-top:50px;
+    background-color:antiquewhite;
+}
+
+/*Designing Containers*/
+.questions .b .two{
+    border:groove;
+    height:115px;
+}
+
+/* Full-width submit button */
+.survey1 [type=submit] {
+    background-color: aqua;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    height:46px;
+    width: 33.3%;
+    text-align:right;
+    color:black;
+    border:solid;
+    border:unset;
+}
+
+/*Designing Containers*/
+.survey1{
+     border:solid;
+     margin-top:410px;
+     height:46px;
+     width:100%;
+}
+
+/* Full-width submit button */
+.survey2 [type=submit] {
+    background-color: aqua;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    height:46px;
+    width: 66.6%;
+    text-align:right;
+    color:black;
+    border:solid;
+    border:unset;
+}
+
+/*Designing Containers*/
+.survey2{
+     border:solid;
+     margin-top:410px;
+     height:46px;
+     width:100%;
+}
+
+/* Full-width submit button */
+.survey3 [type=submit] {
+    background-color: aqua;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    height:46px;
+    width: 100%;
+    text-align:center;
+    color:black;
+    border:solid;
+    border:unset;
+}
+
+/*Designing Containers*/
+.survey3{
+     border:solid;
+     margin-top:410px;
+     height:46px;
+     width:100%;
+}
