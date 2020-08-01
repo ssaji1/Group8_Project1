@@ -1,0 +1,30 @@
+/*background imaged form*/
+body {
+    background-image: url(thanks.png);
+   background-repeat:no-repeat;
+    text-align: center;
+}
+
+/*Designing heading*/
+h1{
+    border:solid;
+    color:seagreen;
+    background-color:antiquewhite;
+}
+
+/* Full-width submit button */
+[type=submit] {
+    background-color:black;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    height: 46px;
+    width: 100%;
+    text-align: center;
+    border: solid;
+}
+
+/*Alligning backword link*/
+.back {
+    margin-top: 36%;
+}
